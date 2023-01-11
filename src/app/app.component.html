@@ -371,9 +371,11 @@
 <div class="editor-container">
 
   <!-- Begin TinyMCE -->
+  <script>
+    const ApiKey = process.env.TMCE_APIKEY
+  </script>
   <editor
-    const ApiKey = process.env.TMCE_APIKey
-    apiKey=ApiKey
+    apiKey=process.env.TMCE_APIKEY
     [init]="{
       plugins: 'advlist lists link image table code help wordcount',
       toolbar:
