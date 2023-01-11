@@ -371,10 +371,9 @@
 <div class="editor-container">
 
   <!-- Begin TinyMCE -->
-  <h1>TinyMCE 6 Angular Demo</h1>
-  <!-- // Editor configuration -->
   <editor
-    apiKey="yogqthmp0tqnq7dcho25huy3kjtxf0h2fqdqal5ijkjgde4b"
+    const ApiKey = process.env.TMCE_APIKey
+    apiKey=ApiKey
     [init]="{
       plugins: 'advlist lists link image table code help wordcount',
       toolbar:
