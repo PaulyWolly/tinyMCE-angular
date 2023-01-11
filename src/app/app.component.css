@@ -1,0 +1,9 @@
+.editor-container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+svg#rocket-smoke.rocket-smoke {
+    position: absolute;
+    right: 130px;
+}
